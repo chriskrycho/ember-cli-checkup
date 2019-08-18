@@ -2,6 +2,7 @@ import { ICheckupResult, IDependencyList, ProjectType } from '../interfaces';
 
 export default class Result implements ICheckupResult {
   types!: any[];
+  tests!: any[];
   type!: ProjectType;
   name!: string;
   version!: string;

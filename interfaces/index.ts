@@ -49,6 +49,7 @@ export interface IDependencyList {
 
 export interface ICheckupResult {
   types: any[];
+  tests: any[];
   type: ProjectType;
   name: string;
   version: string;
